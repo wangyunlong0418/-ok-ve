@@ -1,7 +1,9 @@
 {
-  "private": true,
-  "name": "@ok/ve",
+  "name": "@okve/element",
   "version": "1.0.0",
+  "contributors": [
+    "luxixi"
+  ],
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -27,6 +29,10 @@
       "prettier --parser=typescript --write"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wangyunlong0418/ok-ve.git"
+  },
   "dependencies": {
     "react": "^16.12.0"
   },
@@ -38,5 +44,15 @@
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
     "yorkie": "^2.0.0"
-  }
+  },
+  "description": "## Getting Started",
+  "bugs": {
+    "url": "https://github.com/wangyunlong0418/ok-ve/issues"
+  },
+  "homepage": "https://github.com/wangyunlong0418/ok-ve#readme",
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "luxixi",
+  "license": "MIT"
 }
